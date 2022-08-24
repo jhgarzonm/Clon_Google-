@@ -1,0 +1,181 @@
+* {
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;  
+}
+
+html {
+    font-size: 62.5%;
+    
+}
+
+body {
+    font-family:'Noto Sans', sans-serif;
+    font-size: 1.6rem;
+}
+
+header {
+    margin-bottom: 8.7rem;
+    margin-right: 0.8rem;
+}
+
+    
+
+.Start{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 1.3rem;
+    }
+
+    nav ul li {
+        list-style: none;
+        padding: 1rem;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: black;
+    }
+
+.IconMenu {
+    height: 1.5rem;
+    width: 1.5rem;
+    }
+
+.UserPic {
+   padding: 5%;
+   border-radius: 50%;
+   border-left: 2px solid orange ;
+   border-right: 2px solid blue;
+   border-top: 2px solid red;
+   border-bottom: 2px solid green;
+   /*¿Cómo hacer que el borde izquierdo sea más pequeño que los otros?*/
+}
+   
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 23.8rem;
+}
+
+main input {
+    width: 58.4rem;
+    height: 4.6rem;
+    border: 1px solid lightgray;
+    border-radius: 20rem;
+    margin: 2.1rem;
+    margin-bottom: 1.8rem; 
+    
+    
+}
+
+.input-wrapper {
+	position: relative;
+	 
+} 
+
+.input-icon {
+	color: #191919;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 30px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+main section {
+    margin: 1rem;
+}
+
+main section button {
+    background-color: rgb(250, 250, 250) ;
+    color: black;
+    height: 3.8rem;
+    font-size: 1.4rem;
+    border: 1px;
+    border-radius: 5%;
+    padding: 0 1.8rem;
+    margin: 0 0.3rem;
+    margin-bottom: 1.55rem;
+}
+
+
+main span {
+    color: rgb(97, 97, 97);
+    font-size: 1.28rem;
+}
+
+main span a {
+    text-decoration: none;
+}
+
+div {
+    position: sticky;
+    bottom: 0px
+    
+}
+
+p {
+    background-color: rgb(241, 241, 241);
+    color:  rgb(85, 85, 85);
+    border-bottom: 1px solid;
+    border-color:lightgray; 
+    padding-top: 1.48rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+    
+    
+      
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: rgb(241, 241, 241);
+    padding: 0.32rem;
+    
+          
+          
+}
+
+.footer-left {
+    display: flex;
+    list-style: none;
+    padding-left: 4rem;
+        
+}
+
+.footer-left a {
+    text-decoration: none;
+    color:  rgb(97, 97, 97);
+}
+
+.footer-left li {
+    padding: 1rem;
+    padding-bottom: 1.3rem;
+    font-size: 1.4rem;
+}
+
+.footer-right {
+    list-style: none;
+    display: flex;
+    padding-right: 4rem;
+}
+
+.footer-right li {
+    padding: 1rem;
+    padding-bottom: 1.3rem;
+    font-size: 1.4rem;
+}
+
+.footer-right a {
+    text-decoration: none;
+    color:  rgb(97, 97, 97);
+    
+}
